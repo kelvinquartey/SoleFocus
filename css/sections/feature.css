@@ -1,0 +1,23 @@
+.feature{
+   display: flex; 
+   align-items: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.feature__box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cdcdcd;
+    margin: 15px 0;
+}
+
+.feature__box p{
+    padding: 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    background-color:#e0d198;
+    color: #0ab8a9;
+}
