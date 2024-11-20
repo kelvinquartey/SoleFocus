@@ -28,6 +28,7 @@ header{
     font-weight: 600;
     transition: 0.3s ease-in;
     font-size: 1rem;
+    color:#645f5f;
 }
 
 .header__nav li a:hover,

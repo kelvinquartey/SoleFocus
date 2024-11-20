@@ -21,3 +21,17 @@
     background-color:#e0d198;
     color: #0ab8a9;
 }
+
+.feature__box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.feature__box:nth-child(2) p{
+    background-color: #5fcd615a;
+}
+
+
+.feature__box:nth-child(3) p{
+    background-color: #e04545;
+}
