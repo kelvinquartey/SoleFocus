@@ -31,8 +31,13 @@ header{
     color:#645f5f;
 }
 
+.header__nav a:visited{
+    color:#645f5f;
+}
+
 .header__nav li a:hover,
-.header__nav li a.active{
+.header__nav li a.active,
+.header__nav li a:focus{
     color:#076517;
 }
 
