@@ -31,6 +31,26 @@ header{
     color:#645f5f;
 }
 
+.header__nav button{
+    margin: 0 10px;
+    padding: 10px 25px;
+    background-color: #1c05f0;
+    color: #ffff;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header__nav button:hover{
+    background-color: #1d05f0d3;
+}
+
+.header__nav #nav__button{
+    background-color: #e3e6f3;
+    color: #1c05f0;
+}
+
 .header__nav a:visited{
     color:#645f5f;
 }
