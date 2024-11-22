@@ -21,6 +21,7 @@
     margin: 15px 0;
     transition: 0.2s ease ;
     position: relative;
+    max-height: 400px;
 }
 
 .product1 .pro:hover{
@@ -30,6 +31,7 @@
 .product1 .pro img{
     width: 100%;
     border-radius: 20px;
+    /* max-height: 100%; */
 }
 
 .product1 .pro .des{
@@ -58,6 +60,7 @@
     color: #327119;
     font-size: 16px;
     font-weight: 900;
+    display: inline-block;
 }
 
 .product1 .pro .cart{
