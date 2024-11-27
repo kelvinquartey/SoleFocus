@@ -3,12 +3,13 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: #e3e6f3;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    background-color: var(--secondary-color);
+    box-shadow: 0px 5px 20px var(--box-shadow);
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 99999;
+    z-index: 1;
+    width: 100%;
 }
 
 .header__nav{
@@ -25,17 +26,17 @@ header{
 
 .header__nav a{
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 900;
     transition: 0.3s ease-in;
     font-size: 1rem;
-    color:#645f5f;
+    color:var(--grey);
 }
 
 .header__nav button{
     margin: 0 10px;
     padding: 10px 25px;
-    background-color: #1c05f0;
-    color: #ffff;
+    background-color: var(--primary-color);
+    color: var(--color-white);
     font-weight: 700;
     border: none;
     border-radius: 20px;
@@ -43,12 +44,14 @@ header{
 }
 
 .header__nav button:hover{
-    background-color: #1d05f0d3;
+    background-color: #2414d8ec;
+    color: #e3e3e3;
 }
 
 .header__nav #nav__button{
-    background-color: #e3e6f3;
-    color: #1c05f0;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 900;
 }
 
 .header__nav a:visited{
@@ -58,15 +61,20 @@ header{
 .header__nav li a:hover,
 .header__nav li a.active,
 .header__nav li a:focus{
-    color:#076517;
+    color:var(--primary-color);
 }
+
+.header__nav #nav__button:hover{
+    background-color: var(--color-creamson);
+}
+
 
 .header__nav li a.active::after,
 .header__nav li a:hover::after{
     content: "";
     width: 50%;
     height: 3px;
-    background-color: #076517;
+    background-color: var(--primary-color);
     position: absolute;
     bottom: -4px;
     left: 20px;

@@ -5,13 +5,13 @@
     background-size: contain;
     background-repeat: no-repeat ;
     background-position: top 55% right 0%;
-    background-color: rgba(250, 235, 215, 0.475);
+    background-color: var(--faded-white);
     padding: 0px 80px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    
+    /* margin-top: 100px; */
 }
 
 .hero h4{
@@ -32,7 +32,7 @@
     border: none;
     padding: 14px 65px;
     margin-left: 65px;
-    background-color: blue;
+    background-color: var(--primary-color);
     cursor: pointer;
     font-weight: 900;
     font-size: 0.95rem;

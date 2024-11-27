@@ -17,10 +17,15 @@
     --playfair-display: "Playfair Display", serif;
     --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
   
-    --primary-color: #b1454a;
-    --secondary-color: #121212;
+    --primary-color: #1c05f0;
+    --secondary-color: #e3e6f3;
   
-    --black-200: #020202;
+    --grey: #645f5f;
+    --grey-100: #606063;
+    --faded-white: #faebd779;
+    --box-shadow: rgba(0, 0, 0, 0.3);
+    --yellow-100: #f3b519;
+    --green-100: #327119;
     --black-300: #333333;
     --black-400: #1f1e31;
     --black-500: #555555;
@@ -90,7 +95,7 @@ body{
 }
 
 .page-header h2{
-    color: #fff;
+    color: var(--color-white);
 }
 
 .page-header p{

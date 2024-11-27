@@ -40,7 +40,7 @@
 }
 
 .product1 .pro .des span{
-    color: #606063;
+    color: var(--grey-100);
     font-size: 0.75rem;
 }
 
@@ -52,12 +52,12 @@
 
 .product1 .pro .des i{
     font-size: 17px;
-    color: rgba(243, 181, 25);
+    color: var(--yellow-100);
 }
 
 .product1 .pro .des h4{
     padding-top: 7px;
-    color: #327119;
+    color: var(--green-100);
     font-size: 16px;
     font-weight: 900;
     display: inline-block;
