@@ -19,7 +19,7 @@ products.forEach((product) => {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                 </div>
-                <h4 class="product-price">$${product.price}</h4>
+                <h4 class="product-price">${product.getPrice()}</h4>
             </div>
 
             <button class="add-to-cart-button js-add-to-cart"
