@@ -45,3 +45,39 @@
     background-color: rgba(0, 0, 255, 0.776);
     box-shadow: 0px 0px 10px rgba(7, 33, 112, 0.687);
 }
+
+
+
+@media (max-width:799px){
+.hero{
+    height: 70vh;
+    padding: 0 80px;
+    background-size: 50%;
+    background-position: top 45% right 0%;
+}
+}
+
+
+@media only screen and (max-width: 400px)
+{
+    .hero{
+        padding: 0px 30px;
+    }
+
+    .hero h1{
+        font-size: 2rem;
+    }
+    
+    .hero h2{
+        font-size: 1.8rem;
+    }
+
+    .hero button {  
+           
+        margin: 0px auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}

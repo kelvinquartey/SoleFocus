@@ -147,7 +147,7 @@ body{
 
 /* start media queries */
 
-@media (max-width:799px){
+/* @media (max-width:799px){
     .header__nav{
         display: flex;
         flex-direction: column;
@@ -204,5 +204,12 @@ body{
         padding: 0 80px;
         background-size: 50%;
         background-position: top 45% right 0%;
+    }
+} */
+
+@media only screen and (max-width: 400px){
+
+    .section-p1{
+        padding: 20px 10px;
     }
 }

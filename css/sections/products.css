@@ -99,3 +99,26 @@
     background-color: black;
     color: white;
 }
+
+
+/* start of media queries */
+@media (max-width:799px){
+    .product1 .pro-container {
+        justify-content: center;
+    }
+
+    .product1 .pro{
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .product1 .pro {
+        width: 100%;
+        min-height: 430px;
+    }
+
+
+
+
+}

@@ -36,3 +36,27 @@
 .feature__box:nth-child(3) p{
     background-color: #e04545;
 }
+
+
+/* start of media queries */
+@media (max-width:799px){
+    .feature{
+        justify-content: space-evenly;
+        
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    .feature{
+        justify-content: space-evenly;
+        
+    }
+
+    .feature__box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+
+}
