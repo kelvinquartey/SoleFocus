@@ -1,7 +1,7 @@
 import {cart, addToCart} from '../data/cart.js';
 import {products} from '../data/products.js'
 
-
+updateCartQuantity();
 let productsHTML = '';
 
 
@@ -58,6 +58,20 @@ function updateCartQuantity(){
 
     document.querySelector('.js-cart-quantity')
         .innerHTML = cartQuantity;
+}
+
+export function updateQuantity(productId, newQuantity) {
+  let matchingItem;
+
+  cart.forEach((cartItem) => {
+    if (productId === cartItem.productId) {
+      matchingItem = cartItem;
+    }
+  });
+
+  matchingItem.quantity = newQuantity;
+
+  saveToStorage();
 }
 
 

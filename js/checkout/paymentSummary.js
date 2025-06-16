@@ -1,6 +1,7 @@
-import { cart } from "../../data/cart.js";
+import { cart, calculateCartQuantity } from "../../data/cart.js";
 import { getProduct } from "../../data/products.js";
 import { getDeliveryOption } from "../../data/deliveryOption.js";
+
 
 export function renderPaymentSummary(){
 
@@ -16,6 +17,8 @@ cart.forEach((cartItem) => {
   shippingPrice += deliveryOption.price;
 });
 
+const cartQuantity = calculateCartQuantity();
+
 const totalBeforeTax = productPrice + shippingPrice;
 const taxAmount = Math.round(totalBeforeTax * 0.1);
 const totalAmount = totalBeforeTax + taxAmount;
@@ -26,7 +29,7 @@ const paymentSummaryHTML = `
   </div>
 
   <div class="payment-summary-row">
-      <div>Items (3):</div>
+      <div class="cartquantity">Items (${cartQuantity}):</div>
       <div class="payment-summary-money">$${productPrice}</div>
   </div>
 
@@ -55,6 +58,9 @@ const paymentSummaryHTML = `
   </button>
 `
 
-document.querySelector('.js-payment-summary')
-    .innerHTML = paymentSummaryHTML;
+    document.querySelector('.js-payment-summary')
+        .innerHTML = paymentSummaryHTML;
+    
+    // document.querySelector('cartQuantity')
+    //     .innerHTML = ca
 }
