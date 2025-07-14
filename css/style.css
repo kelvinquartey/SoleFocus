@@ -10,6 +10,7 @@
 @import url("sections/newsletter.css");
 @import url("sections/products.css");
 @import url("sections/cart.css");
+@import url("sections/login.css");
 
 
 /* CSS variables for reusablity across all files (including above imported) */
