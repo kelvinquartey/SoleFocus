@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap">
+  </head>
+  <body class="signup-area">
+    <section class="sign-up">
+        <img src="assets/images/main-logo-transparent.png" class="logo" alt="log">
+      <h2>Sign Up</h2>
+      <form>
+        <label for="fullname">Full Name:</label>
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          placeholder="Enter your full name"
+          required
+        />
+        <label for="email">Email:</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+          required
+        />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+        <label for="confirm-password">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm-password"
+          placeholder="Re-enter your password"
+          required
+        />
+        <input
+          onclick="window.location.href='index.html';"
+          type="submit"
+          value="Register"
+        />
+
+        <p>Already have an account? <span onclick="window.location.href='login.html';">Log In</span></a></p>
+      </form>
+    </section>
+    
+    <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="../script.js"></script>
+    
+  </body>
+</html>
