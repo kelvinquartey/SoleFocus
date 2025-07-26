@@ -75,46 +75,48 @@ export const products = [
     },
     {
     id: "dd82ca78-a18b-4e2a-9250-31e67412f98d",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
+    image: 'assets/images/sneakers/Nike-Air-Max-270.png',
     brand: 'nike',
-    name: 'Runners',
-    price: 78
+    name: 'Air Max 270',
+    price: 130
     },
     {
     id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
-    brand: 'nike',
-    name: 'Runners',
-    price: 78
+    image: 'assets/images/sneakers/New-Balance-574.png',
+    brand: 'new balance',
+    name: '574',
+    price: 85
     },
     {
     id: "3fdfe8d6-9a15-4979-b459-585b0d0545b9",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
-    brand: 'nike',
-    name: 'Runners',
-    price: 78
+    image: 'assets/images/sneakers/Yeezy-Boost-350.jpg',
+    brand: 'yeezy',
+    name: 'Boost 350',
+    price: 200
     },
     {
     id: "58b4fc92-e98c-42aa-8c55-b6b79996769a",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
-    brand: 'nike',
-    name: 'Runners',
-    price: 78
+    image: 'assets/images/sneakers/Adidas-NMD-R1.jpg',
+    brand: 'adidas',
+    name: 'NM R1',
+    price: 120
     },
     {
     id: "5968897c-4d27-4872-89f6-5bcb052746d7",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
-    brand: 'nike',
-    name: 'Runners',
-    price: 78
+    image: 'assets/images/sneakers/puma-rs-x.jpg',
+    brand: 'puma',
+    name: 'RS-X',
+    price: 100
     },
     {
     id: "aad29d11-ea98-41ee-9285-b916638cac4a",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
-    brand: 'nike',
-    name: 'Runners',
-    price: 78
+    image: 'assets/images/sneakers/vans-old-skool.png',
+    brand: 'vans',
+    name: 'Old Skool',
+    price: 55
     },
 ].map((productDetails) => {
   return new Product(productDetails);
 });
+
+
