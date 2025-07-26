@@ -33,45 +33,45 @@ class Product {
 export const products = [
     {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
+    image: 'assets/images/sneakers/Nike-Dunk-Low.jpg',
     brand: 'nike',
-    name: 'Runners',
-    price: 78
+    name: 'Dunk Low Retro SE',
+    price: 120
     },
     {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
-    brand: 'nike',
-    name: 'Runners',
-    price: 78
+    image: 'assets/images/sneakers/Adidas-Ultraboost.png',
+    brand: 'adidas',
+    name: 'Ultraboost 1.0',
+    price: 135
     },
     {
     id: "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
-    brand: 'nike',
-    name: 'Runners',
+    image: 'assets/images/sneakers/Alexander-McQueen-Oversized.jpeg',
+    brand: 'alexander mcqueen',
+    name: 'Oversized Retro',
     price: 78
     },
     {
     id: "54e0eccd-8f36-462b-b68a-8182611d9add",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
-    brand: 'nike',
-    name: 'Runners',
-    price: 78
+    image: 'assets/images/sneakers/Reebok-Classic-Leather.png',
+    brand: 'reebok',
+    name: 'Classic Leather',
+    price: 44
     },
     {
     id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
+    image: 'assets/images/sneakers/Nike-Air-Jordan-1.png',
     brand: 'nike',
-    name: 'Runners',
-    price: 78
+    name: 'Air Jordan',
+    price: 95
     },
     {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: 'assets/images/shoes/luis-felipe-lins-J2-wAQDckus-unsplash.jpg',
-    brand: 'nike',
-    name: 'Runners',
-    price: 78
+    image: 'assets/images/sneakers/Balenciaga-Triple-S.jpg',
+    brand: 'balenciaga',
+    name: 'Triple S',
+    price: 900
     },
     {
     id: "dd82ca78-a18b-4e2a-9250-31e67412f98d",

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/main-favicon-transparent.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="assets/images/main-logo-transparent.png" class="logo" alt="logo"></a>
+        <!-- <a href="#" id="logo"><h1>SoleFocus</h1></a> -->
+        
+        <nav>
+            <ul class="header__nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <p class="lg-bag">|</p>
+                <button id="nav__button" onclick="window.location.href='login.html';">Login</button>
+                <button onclick="window.location.href='signup.html';">Sign Up</button>
+                <li class="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag"></i><div class="cart-quantity js-cart-quantity"></div></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+            </ul>
+        </nav>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </header> 
+    
+    <script type="module" src="js/shop.js"></script>
+</body>
+</html>
