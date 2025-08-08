@@ -1,33 +1,32 @@
 .login-area {
-    background-color: #f1f1f1;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    overscroll-behavior-y: none;
-    width: 100%;
-    background-color: hsla(0, 10%, 76%, 0.637);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position: center; */
-    background-position: top 35% right 0%;
-    background-image: url(../../assets/images/vecteezy_ai-generative-pair-of-sneaker-shoes-on-transparent_34610241.png);
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overscroll-behavior-y: none;
+  width: 100%;
+  background-color: hsla(0, 10%, 76%, 0.637);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  background-position: top 35% right 0%;
+  background-image: url(../../assets/images/vecteezy_ai-generative-pair-of-sneaker-shoes-on-transparent_34610241.png);
 }
 
 
 
 
 .login-container img{
-    display: block;
-    margin: 20px auto;
-    height: 90px;
+  display: block;
+  margin: 20px auto;
+  height: 90px;
 }
 
 
 .login-container {
-    max-width: 400px;
-    margin: auto;
-    padding: 20px;
-    align-items: center;
-  
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
 }
 
 
@@ -69,11 +68,11 @@ form {
 
 
 .login-container label{
-    margin-bottom: 10px;
-    color: #fff;
-    text-shadow: 2px 2px 2px hsl(0, 0%, 0%);
-    font-size: 18px;
-    font-weight:bold;
+  margin-bottom: 10px;
+  color: #fff;
+  text-shadow: 2px 2px 2px hsl(0, 0%, 0%);
+  font-size: 18px;
+  font-weight:bold;
 }
 
 .login-container input[type="text"],
