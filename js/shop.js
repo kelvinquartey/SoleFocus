@@ -49,7 +49,7 @@ document.querySelectorAll('.js-add-to-cart')
         });
     })
 
-function updateCartQuantity(){
+export function updateCartQuantity(){
     let cartQuantity = 0;
 
     cart.forEach((cartItem) => {
@@ -73,6 +73,34 @@ export function updateQuantity(productId, newQuantity) {
 
   saveToStorage();
 }
+
+
+
+
+
+// document.getElementById("contactForm").addEventListener('submit',  (e) => {
+//   e.preventDefault(); // Prevent form refresh
+
+//   const name = document.getElementById("contactName").value.trim();
+//   const email = document.getElementById("contactEmail").value.trim();
+//   const message = document.getElementById("message").value.trim();
+
+//   if (!name || !email || !message) {
+//     alert("Please fill in all fields.");
+//     return; // Stop execution if any field is empty
+//   }
+
+//   const successMessage = document.getElementById('successMessage');
+
+//   // Show success message
+//   successMessage.style.display = 'block';
+
+//   // Wait 2 seconds, then hide message and reset form
+// //   setTimeout(() => {
+// //     successMessage.style.display = 'none';
+// //     document.getElementById('contactForm').reset();
+// //   }, 2000);
+// });
 
 
 

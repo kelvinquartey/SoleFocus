@@ -13,6 +13,7 @@
 @import url("sections/login.css");
 @import url("sections/signup.css");
 @import url("sections/about.css");
+@import url("sections/contact.css");
 
 
 /* CSS variables for reusablity across all files (including above imported) */

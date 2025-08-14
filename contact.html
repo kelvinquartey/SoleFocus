@@ -36,7 +36,37 @@
             <i id="bar" class="fas fa-outdent"></i>
         </div>
     </header> 
+
+    <section class="contact-container">
+        <article class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>We’d love to hear from you! Whether you have questions about our sneakers, need help with an order, or just want to say hi, feel free to reach out.</p>
+            <ul>
+                <li><strong>📍 Address:</strong> 123 Sneaker Street, Accra, Ghana</li>
+                <li><strong>📞 Phone:</strong> +233 24 123 4567</li>
+                <li><strong>📧 Email:</strong> support@SoleFocus.com</li>
+                <li><strong>⏰ Hours:</strong> Mon - Sat, 10am - 6pm</li>
+            </ul>
+        </article>
+
+        <article class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" id="contactName" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="contactEmail" required>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <p class="success-message" id="successMessage">✅ Your message has been sent!</p>
+        </article>
+    </section>
     
-    <script type="module" src="js/shop.js"></script>
+    <script type="module" src="js/contact.js"></script>
 </body>
 </html>

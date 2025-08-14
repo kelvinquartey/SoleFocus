@@ -13,7 +13,7 @@
 
 /* About Section */
 .about-page-header{
-  background-image: url("../../assets/images/banner/b1.jpg");
+  background-image: url("../../assets/images/sneakers/sneaker-wall.jpg");
   width: 100%;
   min-height: 85vh;
   text-align: center;
@@ -31,6 +31,7 @@
   border: none;
   padding: 20px;
   font-size: 1rem;
+  font-weight: 900;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
