@@ -8,8 +8,8 @@ let productsHTML = '';
 products.forEach((product) => {
     
     productsHTML += `
-        <article class="pro js-product modalbtn" data-product-id ="${product.id}">
-            <img class="product-image" src="${product.image}" alt="product 1">
+        <article class="pro js-product" data-product-id ="${product.id}">
+            <img class="product-image" src="${product.image}" alt="${product.name} image">
             <div class="des">
                 <span class="product-brand">${product.brand}</span>
                 <h5 class="product-name">${product.name}</h5>
@@ -78,42 +78,6 @@ export function updateQuantity(productId, newQuantity) {
 
 
 
-// document.getElementById("contactForm").addEventListener('submit',  (e) => {
-//   e.preventDefault(); // Prevent form refresh
-
-//   const name = document.getElementById("contactName").value.trim();
-//   const email = document.getElementById("contactEmail").value.trim();
-//   const message = document.getElementById("message").value.trim();
-
-//   if (!name || !email || !message) {
-//     alert("Please fill in all fields.");
-//     return; // Stop execution if any field is empty
-//   }
-
-//   const successMessage = document.getElementById('successMessage');
-
-//   // Show success message
-//   successMessage.style.display = 'block';
-
-//   // Wait 2 seconds, then hide message and reset form
-// //   setTimeout(() => {
-// //     successMessage.style.display = 'none';
-// //     document.getElementById('contactForm').reset();
-// //   }, 2000);
-// });
-
-
-
-
-
-
-
-
-
-
-
-
-
 // start of media queries
 
 const bar = document.querySelector('#bar');
@@ -132,6 +96,7 @@ if(close){
         nav.classList.remove('active');
     })
 }
+
 
 // end of media queries
 
