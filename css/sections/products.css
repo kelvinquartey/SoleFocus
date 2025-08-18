@@ -15,8 +15,11 @@
 
 .product1 .pro{
     /* width:23%; */
-    /* flex-obasis: 250px; */
+    /* flex-basis: 250px; */
     /* min-width: 250px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding:10px 12px;
     border: 1px solid #cce7d0;
     border-radius: 20px;
