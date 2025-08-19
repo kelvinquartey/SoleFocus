@@ -7,6 +7,8 @@
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color:#04093a;
+    padding: 40px 50px;
+    margin: 0 auto; 
 }
 
 .newsletter .form{
@@ -79,5 +81,11 @@ button.normal{
     .newsletter .form {
         width: 100%;
         margin: 20px 0px;
+    }
+}
+
+@media (max-width: 400px) {
+    .newsletter {
+        padding: 30px 30px;
     }
 }
