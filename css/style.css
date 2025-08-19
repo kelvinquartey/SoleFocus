@@ -166,7 +166,7 @@ body{
 /* 0–400px (very small phones) */
 @media (max-width: 400px) {
   .section-p1 {
-    padding: 10px 5px; /* reduce padding */
+    padding: 10px 5px;
   }
 }
 
