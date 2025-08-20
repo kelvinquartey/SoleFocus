@@ -29,12 +29,12 @@
     margin: 0 auto;
     transition: 0.2s ease ;
     position: relative;
+    min-height: 370px;
     max-height: 400px;
 
     width: 100%;
     /* max-width: 300px; */
     overflow: hidden;
-    height: 370px;
     max-width: unset;   
     flex-basis: unset;
 }
@@ -204,8 +204,19 @@
 /* 401px–479px (small phones) */
 @media (min-width: 401px) and (max-width: 479px) {
   .product1 .pro-container {
-    grid-template-columns: 1fr; 
+    /* grid-template-columns: 1fr;  */
+    grid-template-columns: repeat(2, 1fr);
   }
+
+    .product1 .pro {
+        min-width: 160px;
+        min-height: 150px;
+    }
+
+    .product-image {
+        height: 120px;   
+        max-height: 120px;
+    }
 }
 
 /* 480px–767px (large phones & small tablets) */

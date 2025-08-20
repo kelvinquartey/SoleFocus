@@ -165,21 +165,38 @@ body{
 
 /* 0–400px (very small phones) */
 @media (max-width: 400px) {
-  .section-p1 {
-    padding: 10px 5px;
-  }
+    .section-p1 {
+        padding: 10px 5px;
+    }
+
+    .page-header{
+        height: 30vh;        
+    }
 }
 
 /* 401px–479px (small phones slightly bigger) */
 @media (min-width: 401px) and (max-width: 479px) {
-  .section-p1 {
-    padding: 12px 8px;
-  }
+    .section-p1 {
+        padding: 12px 8px;
+    }
+    .page-header{
+        height: 30vh;        
+    }
 }
 
 /* 480px–767px (large phones & small tablets) */
 @media (min-width: 480px) and (max-width: 767px) {
-  .section-p1 {
-    padding: 15px 10px;
-  }
+    .section-p1 {
+        padding: 15px 10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .page-header p{
+        font-size: 2rem;
+    }
+
+    .page-header{
+        height: 30vh;        
+    }
 }
