@@ -232,25 +232,6 @@
 
     .product1 .pro {
         min-width: 160px;
-        min-height: 320px;
-    }
-
-    .product-image {
-        height: 120px;   
-        max-height: 120px;
-    }
-}
-
-
-/* 401px–479px (small phones) */
-@media (min-width: 401px) and (max-width: 479px) {
-  .product1 .pro-container {
-    /* grid-template-columns: 1fr;  */
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-    .product1 .pro {
-        min-width: 160px;
         min-height: 150px;
     }
 
@@ -265,6 +246,16 @@
   .product1 .pro-container {
     grid-template-columns: repeat(2, 1fr); 
   }
+
+      .product1 .pro {
+        min-width: 160px;
+        min-height: 150px;
+    }
+
+    .product-image {
+        height: 120px;   
+        max-height: 120px;
+    }
 }
 
 /* 768px–1023px (tablets) */

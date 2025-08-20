@@ -1,13 +1,13 @@
 
-.about-hero {
+/* .about-hero {
   padding: 3rem 2rem;
   background: #fff;
   text-align: center;
   border-bottom: 1px solid #ddd;
-}
+} */
 
-.about-hero h2 {
-  font-size: 2.5rem;
+.about h2 {
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -15,7 +15,7 @@
 .about-page-header{
   background-image: url("../../assets/images/sneakers/sneaker-wall.jpg");
   width: 100%;
-  min-height: 85vh;
+  height: 55vh;
   text-align: center;
   background-size: cover;
   display: flex;
@@ -52,7 +52,7 @@
 .about {
   display: flex;
   flex-wrap: wrap;
-  padding: 2rem;
+  padding: 1rem;
   align-items: center;
   background: #fafafa;
 }
@@ -64,6 +64,10 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+.about-content h2{
+  margin-bottom: -1rem;
 }
 
 
@@ -79,6 +83,16 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 0.5rem;
   /* gap: 0.5rem; */
+}
+
+.box-1{
+  width: 300px;
+  height: 200px;
+}
+
+.box-2{
+  width: 300px;
+  height: 408px;
 }
 
 .grid-box:first-child{
@@ -108,6 +122,10 @@
 
 .box:nth-child(3){
   height: 450px;
+}
+
+.about-us-info{
+  margin-block: 1.5rem;
 }
 
 .about-us-info h3{
@@ -173,3 +191,121 @@ footer .about{
   padding: 1rem;
   margin-top: 2rem;
 }
+
+/* Start of media queries */
+
+/* 0–400px (very small phones) */
+@media (max-width: 400px) {
+  .about-page-header{
+    height: 50vh;
+  }
+
+  .about-page-header h2{
+    font-size: 2rem;
+  }
+
+  .grid-box:first-child{
+    display: none;
+  }
+
+  .about {
+    padding: 0.5rem;
+  }
+
+  .about-us-info h1{
+    font-size: 1.5rem;
+  }
+
+  .about-us-info h1{
+    color: black;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+  }
+}
+
+
+/* 401px–479px (small phones slightly bigger) */
+@media (min-width: 401px) and (max-width: 479px) {
+  .about {
+    padding: 0.5rem;
+  }
+
+  .about-page-header{
+    height: 50vh;
+  }
+
+  .about-page-header h2{
+    font-size: 2rem;
+  }
+
+  .grid-box:first-child{
+    display: none;
+  }
+
+  .about-us-info h1{
+    font-size: 1.5rem;
+  }
+
+  .about-us-info h1{
+    margin-bottom: 1rem;
+    line-height: 2rem;
+  }
+}
+
+/* 480px–767px (large phones & small tablets) */
+@media (min-width: 480px) and (max-width: 767px) {
+  .about-page-header{
+    height: 50vh;
+  }
+
+  .grid-box:first-child{
+    display: none;
+  }
+
+ .about-us-info h1{
+    font-size: 1.5rem;
+  }
+
+  .about-us-info h1{
+    margin-bottom: 1rem;
+    line-height: 2rem;
+  }
+}
+
+/* 768px–1023px (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-page-header{
+    height: 50vh;
+  }
+
+  .grid-box{
+    justify-content: center;
+  }
+
+  .grid-box:first-child{
+    display: none;
+  }
+
+  .about{
+    padding-inline: 30px;
+  }
+}
+
+/* 1024px–1199px (small laptops and ipads) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .about-hero-container{
+    gap: 2rem;
+  }
+
+  .about-content p{
+    font-size: 1.2rem;
+  }
+
+  .about-content h3{
+    font-size: 1.5rem;
+  }
+
+  .about-content li{
+    font-size: 1.2rem;
+  }
+} 
