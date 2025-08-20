@@ -191,6 +191,16 @@ body{
     }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+    .page-header p{
+        font-size: 2rem;
+    }
+
+    .page-header{
+        height: 30vh;        
+    }    
+}
+
 @media (min-width: 1024px) and (max-width: 1199px) {
     .page-header p{
         font-size: 2rem;
