@@ -261,3 +261,17 @@
 .is-editing-quantity .update-quantity-link {
   display: none;
 }
+
+.remove-from-cart-message{
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  background-color: #bb0707;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  width: fit-content;
+}

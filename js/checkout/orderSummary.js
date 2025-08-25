@@ -120,6 +120,14 @@ export function renderOrderSummary(){
           container.remove();
           renderPaymentSummary();
           updateCartQuantityAtTop();
+
+            const removeFromMessage = document.querySelector('.remove-from-cart-message');
+            removeFromMessage.style.display = 'block';
+
+            
+            setTimeout(() => {
+                removeFromMessage.style.display = 'none';
+            }, 2000);
           
         });
     });
