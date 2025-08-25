@@ -125,6 +125,26 @@
     color: white;
 }
 
+.add-to-cart-message{
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    background-color: #08690b;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+/* .add-to-cart-message .show {
+  display: block;
+  opacity: 1;
+  transition-delay: 0s;
+} */
+
 
 /* start of media queries */
 @media (max-width:799px){

@@ -45,6 +45,13 @@ document.querySelectorAll('.js-add-to-cart')
             const productId = button.dataset.productId;
             addToCart(productId);
             updateCartQuantity();
+            const cartMessage = document.querySelector('.add-to-cart-message');
+            cartMessage.style.display = 'block';
+
+            
+            setTimeout(() => {
+                cartMessage.style.display = 'none';
+            }, 2000);
 
         });
     })
