@@ -9,7 +9,14 @@ export function renderOrderSummary(){
     updateCartQuantityAtTop();
     let cartSummaryHTML = '';
     
-    
+    if (cart.length === 0) {
+    cartSummaryHTML = `
+        <div class="empty-cart-message">
+            <h2>🛒 No items in cart</h2>
+        </div>
+    `;
+    } else{
+
     cart.forEach((cartItem) => {
         const productId = cartItem.productId;
         
@@ -72,6 +79,8 @@ export function renderOrderSummary(){
         `;
     });
 
+}
+
     function deliveryOptionsHTML(matchingProduct, cartItem){
         let html = '';
 
@@ -111,15 +120,16 @@ export function renderOrderSummary(){
     document.querySelectorAll('.js-delete-link')
       .forEach((link) => {
         link.addEventListener('click', () => {
-          const productId = link.dataset.productId;
-          removeFromCart(productId);
-    
-          const container = document.querySelector(
+            const productId = link.dataset.productId;
+            removeFromCart(productId);
+
+            const container = document.querySelector(
             `.js-cart-item-container-${productId}`
-          );
-          container.remove();
-          renderPaymentSummary();
-          updateCartQuantityAtTop();
+            );
+            container.remove();
+            renderPaymentSummary();
+            updateCartQuantityAtTop();
+            renderOrderSummary()
 
             const removeFromMessage = document.querySelector('.remove-from-cart-message');
             removeFromMessage.style.display = 'block';
