@@ -117,12 +117,14 @@
     object-fit: contain;
     display: block;
     margin-inline: auto;
+    background-color: #2414d8da;
+    color: #fff;
     /* border: 1px solid black; */
 }
 
 .add-to-cart-button:hover {
-    background-color: #2414d8ec;
-    color: white;
+    background-color: #2414d8;
+    /* color: #000; */
 }
 
 .add-to-cart-message{
