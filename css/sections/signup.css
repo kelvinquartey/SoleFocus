@@ -1,11 +1,11 @@
 .signup-area{
-    overflow-x: hidden;
-    overflow-y: scroll;
-    overscroll-behavior-y: none;
-    background-image: url(../../assets/images/shoes/zakaria-issaad-BGKYYeKkzNg-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overscroll-behavior-y: none;
+  background-image: url(../../assets/images/shoes/zakaria-issaad-BGKYYeKkzNg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .sign-up {
@@ -21,10 +21,8 @@
 }
 
 .signup-area img{
-    display: block;
-    margin: 20px auto;
-    
-    /* height: 90px; */
+  display: block;
+  margin: 20px auto;
 }
 
 .sign-up label {
@@ -32,9 +30,10 @@
 }
 
 .sign-up h2{
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
   color: #000;
+  font-size: 2rem;
 }
 
 .sign-up p{
@@ -48,7 +47,7 @@
 }
 
 .sign-up span:hover {
-    color: #ff0000;
+  color: #ff0000;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -60,25 +59,26 @@ input[type="tel"] {
   border-radius: 5px;
   border: #000 solid;
   margin-bottom: 20px;
+  /* font-size: 0.9rem; */
+  font-size: 16px;
+  
 }
 
 .sign-up input[type="submit"] {
-  background-color: #1c05f0;
+  background-color: #1d05f0ce;
   color: #ffff;
   padding: 10px;
   border-radius: 30px;
   border: none;
   cursor: pointer;
-  margin-top: 30px;
+  margin: 20px auto;
   width: 50%;
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 16px;
+  font-size: 1rem;
   box-shadow: 0px 0px 10px rgba(7, 33, 112, 0.687);
 }
 
-.sign-up input[type="submit"]:hover {
-  background-color: #1d05f0be;
+.sign-up input[type="submit"]:hover {  
+  background-color: #1c05f0;
   color: #ffff;
 }
