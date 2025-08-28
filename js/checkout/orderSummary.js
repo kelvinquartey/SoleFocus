@@ -137,7 +137,7 @@ export function renderOrderSummary(){
             
             setTimeout(() => {
                 removeFromMessage.style.display = 'none';
-            }, 2000);
+            }, 1000);
           
         });
     });

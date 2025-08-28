@@ -50,6 +50,14 @@
     
 }
 
+/* Quirky Defaults */
+a, button { 
+    -webkit-tap-highlight-color: transparent; 
+    -webkit-touch-callout: none; 
+}
+
+/* Quirky Defaults */
+
 h1{
     font-size: 3.125rem;
     line-height: 64px;
@@ -76,7 +84,8 @@ body{
     width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
-    overscroll-behavior-y: none;
+    overscroll-behavior: none; 
+    touch-action: manipulation; 
 }
 
 /* start of utility classes */

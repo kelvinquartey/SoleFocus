@@ -51,7 +51,7 @@ document.querySelectorAll('.js-add-to-cart')
             
             setTimeout(() => {
                 cartMessage.style.display = 'none';
-            }, 2000);
+            }, 1000);
 
         });
     })

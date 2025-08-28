@@ -2,8 +2,13 @@
   background-color: #f1f1f1;
   overflow-x: hidden;
   overflow-y: scroll;
-  overscroll-behavior-y: none;
+  overscroll-behavior: none;
   width: 100%;
+  min-height: 100vh;      
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  box-sizing: border-box; 
   background-color: #f1f1f1;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,15 +21,20 @@
 .login-container img{
   display: block;
   margin: 20px auto;
-  height: 70px;
+  height: auto;
+  max-width: 180px;
 }
 
 
 .login-container {
-  max-width: 400px;
+  width: 100%;  
+  max-width: 500px;
   margin: auto;
   padding: 20px;
   align-items: center;
+  background-color: #fff;              /* white card */
+  border-radius: 12px;                 /* rounded corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15)
 }
 
 
@@ -73,16 +83,18 @@ form {
 }
 
 .login-container input[type="text"],
-input[type="password"]{
+.login-container input[type="password"]{
   padding: 10px;
   border-radius: 5px;
   border: #000 solid;
   margin-bottom: 20px;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
+  font-size: 16px;
+  font-family: inherit;
 }
 
-.login-container input[type="text"],
-input[type="password"]:focus{
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus{
   outline: none;
   border: #1c05f0 solid;
 } 
