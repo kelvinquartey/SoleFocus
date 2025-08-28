@@ -122,9 +122,12 @@
     /* border: 1px solid black; */
 }
 
+
+@media (hover: hover) and (pointer: fine) {
 .add-to-cart-button:hover {
     background-color: #2414d8;
     /* color: #000; */
+}
 }
 
 .add-to-cart-message{

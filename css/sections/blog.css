@@ -13,9 +13,11 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .blog-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
 }
 
 .blog-card img {
@@ -47,8 +49,10 @@
     transition: color 0.2s;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .read-more:hover {
     color: #cc0000;
+}
 }
 
 
