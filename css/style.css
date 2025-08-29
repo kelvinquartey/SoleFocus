@@ -57,6 +57,12 @@ a, button {
     user-select: none;
 }
 
+.fa-shopping-bag, .cart-quantity{
+    -webkit-tap-highlight-color: transparent; 
+    -webkit-touch-callout: none; 
+    user-select: none;
+}
+
 /* Quirky Defaults */
 
 h1{
@@ -155,6 +161,15 @@ body{
 
 /* end of utility class */
 
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 
 
   
